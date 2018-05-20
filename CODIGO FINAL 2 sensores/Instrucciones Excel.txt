@@ -1,0 +1,25 @@
+Instrucciones sobre el funcionamiento del Registro en Excel:
+
+Pueden ocurrir dos situaciones (puede ser que se den ambas):
+
+- Que se abra por primera vez el archivo (o se inicie), en cuyo caso habrá que seguir los siguientes pasos para 
+	el arranque y el funcionamiento del programa:
+
+1º Abrir el archivo "Registro.xlsm".
+2º Borrar toda la tabla de la hoja "Lectura".
+3º Desde esa misma hoja, ir a "Datos" -> "Desde el texto/CSV" -> ruta hasta el archivo "lectura_datos.txt" y clickarlo.
+4º Después de que se abra una nueva ventana con la información contenida, clickar "Editar" y cambiar el nombre 
+	de "Column1", "Column2", "Column3", "Column4" y "Column5" por "ID", "ZONA", "PESO", "FECHA" y "HORA".
+5º Presionar sobre "Cerrar y cargar" -> "Cerrar y cargar en..." -> "Hoja de cálculo existente" y clickar sobre la 
+	celda "A1" de la hoja "Lectura".
+6º Ir a la hoja "Registro" y asociar la celda "A2", "B2", "C2" y "D2" con las celdas "A2", "B2", "C2" y "D2" (en ese orden) 
+	de la hoja "Lectura" y después arrastrar cada formato de celda a toda su columna.
+7º No cerrar el archivo "Registro.xlsm" bajo ningún concepto, sino se deberán realizar los pasos anteriores de nuevo y el 
+	objetivo es el de automatizar el funcionamiento.
+
+- Una vez se ha cargado el archivo y esté en funcionamiento:
+
+1º Ir a "Datos" -> "Actualizar todo". Con ello se actualizarán todas las tablas automáticamente.
+2º En la hoja "Registro" arrastrar la celda "F2" ("ACCESO") para copiar el formato a toda la columna.
+
+*En caso de que se quiera documentar nuevas identidades, ir a la hoja "BBDD" y modificarla como corresponde.

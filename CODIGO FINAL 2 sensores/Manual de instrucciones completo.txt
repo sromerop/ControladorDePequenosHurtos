@@ -1,0 +1,28 @@
+Instalación del hardware:
+	Proceder con la instalación de dos tornillos para colgar la carcasa en la estantería.
+	Colocar y estirar las alfombrillas en el lugar y la posición deseadas.
+	Estirar los cables de las alfombrillas.
+	Retirar la tapa de la carcasa y estirar los cables.
+	Conectar los cables correctamente en el multiplexor.
+	Empalmar los cables con la longitud deseada mediante las clemas incluídas en el paquete.
+	Realizar la conexión de la caja con la sirena de alarma de la instalación del edificio.
+	Conectar el cable USB al PC que va a contener la base de datos y va a ejecutar el programa.
+	Volver a colocar la tapa en su sitio.
+
+Instalación del software:
+	Rellenar la base de datos con los campos especificados sobre los empleados.
+	Rellenar el registro con los campos especificados y se le asigna un fichero para cada día.
+	Introducir el(los) correo(s) electrónico(s) que van a recibir las alertas.
+	Introducir los casos en los que se procede a avisar via email.
+	Introducir el mensaje predeterminado enviado en cada caso.
+	Correr el programa y no apagar el equipo.
+
+En caso de tener que añadir algún nuevo miembro del personal o algún correo electrónico se recomienda esperar a que finalice 
+	la jornada laboral, ya que se debe parar el programa, introducir los nuevos datos y volver a iniciarlo.
+
+Modo de uso:
+	En caso de retirar algún objeto de las estanterías sin haber pasado previamente una tarjeta por el lector, 
+		se registrará y se activará la sirena de robo y se notificará en la pantalla del PC.
+	En caso de pasar una tarjeta que tenga permiso por el lector, se registrará, pero no tendrá más consecuencias.
+	En caso de pasar una tarjeta que no tenga permiso por el lector, se registrará y se notificará por la pantalla del PC y vía email.
+	En caso de pasar una tarjeta no reconocida en la base de datos por el lector, se registrará y se notificará por la pantalla del PC.
